@@ -1,0 +1,19 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but it can also be edited manually.
+
+config_version=5
+
+[application]
+
+config/name="Runtime Test"
+config/features=PackedStringArray("4.4")
+run/main_scene="res://addons/runtime_test/examples/test_target.tscn"
+
+[autoload]
+
+RuntimeTest="*res://addons/runtime_test/runtime_test.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/runtime_test/plugin.cfg")

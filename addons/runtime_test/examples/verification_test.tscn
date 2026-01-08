@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bverificationtest"]
+
+[ext_resource type="Script" path="res://addons/runtime_test/examples/verification_test.gd" id="1_script"]
+
+[node name="VerificationTest" type="Node3D"]
+script = ExtResource("1_script")
