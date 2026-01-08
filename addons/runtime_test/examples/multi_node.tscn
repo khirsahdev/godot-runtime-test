@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://addons/runtime_test/examples/character.gd" id="1_character"]
+[ext_resource type="Script" path="res://addons/runtime_test/examples/heal_spell.gd" id="2_heal_spell"]
+
+[node name="Character" type="Node"]
+script = ExtResource("1_character")
+
+[node name="HealSpell" type="Node" parent="."]
+script = ExtResource("2_heal_spell")
+heal_amount = 30
